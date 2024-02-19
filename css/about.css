@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent; /* Oculta o traço piscando */
+}
+
+/* HEADER ----------------------------------------------------------- */
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+#about{
+    color: #99CCFF;
+}
+.header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.phone {
+    margin-left: auto; /* Empurra o link do telefone para a direita */
+    font-size: 2vh;
+}
+
+.phone img{
+    height: 3vh;
+    vertical-align: middle;
+    margin-right: 1vh;
+}
+
+/* body -------------------------------------------------------------------------*/
+body{
+    background-image: url(/assets/guto.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* height: 100%; */    
+}
+
+.container{
+    font-family: "Nunito Sans", sans-serif;
+    max-width: 400px;
+    color: whitesmoke;
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+
+.container .about{
+    font-family: "Nunito Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 4vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#sobre{
+    text-decoration: underline;
+    text-decoration-color: #99CCFF;
+}
+
+.container .email{
+    font-size: 2.5vh;
+}
+
+.container .description{
+    margin-top: 10vh;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent; /* Oculta o traço piscando */
+}
+
+/* HEADER ----------------------------------------------------------- */
+.header {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+#resume{
+    color: #99CCFF;
+}
+.header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.phone {
+    margin-left: auto; /* Empurra o link do telefone para a direita */
+    font-size: 2vh;
+}
+
+.phone img{
+    height: 3vh;
+    vertical-align: middle;
+    margin-right: 1vh;
+}
+
+/* body -------------------------------------------------------------------------*/
+body{
+    background-image: url(/assets/resume-img.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* height: 100%; */    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Nunito Sans", sans-serif;
+    color: whitesmoke;
+    margin-top: 3vh;
+}
+.container_content{
+    flex: 1;
+    margin-left: 15vh;
+    margin-right: 3vh;
+}
+
+.container .title{  
+    font-size: 3vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #99CCFF;
+    font-weight: 700;
+}
+
+.skill{
+    font-size: 2vh;
+    line-height: 5vh;
+}
+
+.title{
+    margin-bottom: 3vh;
+}
+
+.bar {
+    height: 10px;
+    background-color: #99CCFF;
+}
+
+#language{
+    margin-top: 8vh;
+}
+
+.container_content .experience span{
+    display: block;
+}
+
+.experience{
+    font-size: 1vw;
+    margin-bottom: 2vh;
+}
+
+.company{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.formation{
+    font-size: 1vw;
+}
+
+#formation{
+    margin-top: 9vh;
+}
+
+.academy{
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+#hobbies{
+    margin-top: 9vh;
+}
