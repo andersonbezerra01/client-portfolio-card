@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +24,7 @@
 }
 
 #home{
-    color: #99CCFF;
+    /* color: #99CCFF; */
 }
 .header a {
     text-decoration: none;
@@ -58,26 +62,31 @@ body{
 }
 
 .container .name{
-    font-family: "Nunito Sans", sans-serif;
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Raleway", sans-serif;
     color: whitesmoke;
-    font-size: 4vw;
+    font-size: 3vw;
     text-transform: uppercase;
+    font-weight: 100;
 }
 
 .container .surname{
-    font-family: "Nunito Sans", sans-serif;
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "PT Sans", sans-serif;
     color: whitesmoke;
-    font-size: 7vw;
+    font-size: 6vw;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 9vh;
+    /* letter-spacing: 10px; */
+    line-height: 10vh;
 }
 
 .container .profession{
-    font-family: "Nunito Sans", sans-serif;
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Raleway", sans-serif;
     color: whitesmoke;
-    font-size: 1.5vw;
-    letter-spacing: 10px;
+    font-size: 3vh;
+    letter-spacing: 5px;
     line-height: 9vh;
 }
 
@@ -93,10 +102,23 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
 /* FOOTER ------------------------------------------------- */
 .rodape img{
     height: 5vh;
     margin-left: 20vh;
     margin-top: 33vh;
 }
+
+.rodape img:hover{
+    height: 6vh;
+    transition: height 0.3s, color 0.3s;
+}
+
+
 

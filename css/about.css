@@ -18,11 +18,15 @@
 }
 
 #about{
-    color: #99CCFF;
+    /* color: #99CCFF; */
 }
 .header a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+.header a:hover{
+    opacity: 0.9;
 }
 
 .phone {
